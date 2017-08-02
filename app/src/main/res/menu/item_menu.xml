@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnMenuProfile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile" />
+    <item
+        android:id="@+id/btnMenuRequest"
+        android:icon="@drawable/ic_request"
+        android:title="Request List" />
+    <item
+        android:id="@+id/btnMenuHistory"
+        android:icon="@drawable/ic_history"
+        android:title="History" />
+    <item
+        android:id="@+id/btnMenuLogout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/btnMenuExit"
+        android:icon="@drawable/ic_power"
+        android:title="Exit App" />
+</menu>
