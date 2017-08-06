@@ -95,13 +95,6 @@ public class Splash extends AppCompatActivity {
                 Map<String,String> params = new HashMap<String, String>();
                 return params;
             }
-
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                Map<String, String>  params = new HashMap<String, String>();
-                params.put("Cookie", ApiURL.cookie);
-                return params;
-            }
         };
         MySingleton.getInstance(getApplicationContext()).addToRequestQueue(stringRequest);
     }
@@ -148,13 +141,6 @@ public class Splash extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> params = new HashMap<String, String>();
-                return params;
-            }
-
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                Map<String, String>  params = new HashMap<String, String>();
-                params.put("Cookie", ApiURL.cookie);
                 return params;
             }
         };
@@ -248,13 +234,6 @@ public class Splash extends AppCompatActivity {
                 params.put("username", username);
                 params.put("password", password);
 
-                return params;
-            }
-
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                Map<String, String>  params = new HashMap<String, String>();
-                params.put("Cookie", ApiURL.cookie);
                 return params;
             }
         };
